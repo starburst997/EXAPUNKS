@@ -45,7 +45,6 @@ Also include a quick `.solution` parser to [auto-generate](EXA-Parser) this repo
 | [TEC EXA-Blaster Modem - Pager Network](solutions/33-tec-exa-blaster-modem-pager-network)                               | 638    | 62   | 29       |
 | [Mitsuzen HDI-10 - Cerebral Cortex](solutions/34-mitsuzen-hdi-10-cerebral-cortex)                                       | 8124   | 148  | 266      |
 | Battle                                                                                                                  | Wins |
-|-------------------------------------------------------------------------------------------------------------------------|------|
 | [KGOG-TV - Programming Hub](battles/01-kgog-tv-programming-hub)                                                         | 100  |
 | [Valhalla - =Plastered](battles/02-valhalla-plastered)                                                                  | 100  |
 | [Deadlock's Domain - Deadlock](battles/03-deadlocks-domain-deadlock)                                                    | 100  |
