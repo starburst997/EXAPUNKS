@@ -8,17 +8,17 @@ There is no earth-shattering records here, I was playing for fun, trying mostly 
 Also include a quick `.solution` parser to [auto-generate](EXA-Parser) this repo.
 
 <!-- EXA_START -->
-| Level                                                                                                                        | Cycles | Size | Activity |
-|------------------------------------------------------------------------------------------------------------------------------|--------|------|----------|
-| [1: Trash World News - Tutorial 1](solutions/01-trash-world-news-tutorial-1)                                                    | 4      | 3    | 2        |
-| [2: Trash World News - Tutorial 2](solutions/02-trash-world-news-tutorial-2)                                                    | 7      | 6    | 2        |
-| [3: Trash World News - Tutorial 3](solutions/03-trash-world-news-tutorial-3)                                                    | 11     | 12   | 4        |
-| [4: Trash World News - Tutorial 4](solutions/04-trash-world-news-tutorial-4)                                                    | 308    | 11   | 2        |
-| [5: Euclid's Pizza - Order System](solutions/05-euclids-pizza-order-system)                                                     | 13     | 14   | 1        |
-| [6: Mitsuzen HDI-10 - Left Arm](solutions/06-mitsuzen-hdi-10-left-arm)                                                          | 241    | 23   | 6        |
-| [7: Last Stop Snaxnet - Factory 11](solutions/07-last-stop-snaxnet-factory-11)                                                  | 31     | 11   | 2        |
-| [8: Zebros Copies - Point-Of-Sale System](solutions/08-zebros-copies-point-of-sale-system)                                      | 101    | 24   | 4        |
-| [9: SFCTA Highway Sign #4902 - Remote Access Interface](solutions/09-sfcta-highway-sign-4902-remote-access-interface)           | 167    | 11   | 1        |
+| Level                                                                                                                            | Cycles | Size | Activity |
+|----------------------------------------------------------------------------------------------------------------------------------|--------|------|----------|
+| [1: Trash World News - Tutorial 1](solutions/01-trash-world-news-tutorial-1)                                                     | 4      | 3    | 2        |
+| [2: Trash World News - Tutorial 2](solutions/02-trash-world-news-tutorial-2)                                                     | 7      | 6    | 2        |
+| [3: Trash World News - Tutorial 3](solutions/03-trash-world-news-tutorial-3)                                                     | 11     | 12   | 4        |
+| [4: Trash World News - Tutorial 4](solutions/04-trash-world-news-tutorial-4)                                                     | 308    | 11   | 2        |
+| [5: Euclid's Pizza - Order System](solutions/05-euclids-pizza-order-system)                                                      | 13     | 14   | 1        |
+| [6: Mitsuzen HDI-10 - Left Arm](solutions/06-mitsuzen-hdi-10-left-arm)                                                           | 241    | 23   | 6        |
+| [7: Last Stop Snaxnet - Factory 11](solutions/07-last-stop-snaxnet-factory-11)                                                   | 31     | 11   | 2        |
+| [8: Zebros Copies - Point-Of-Sale System](solutions/08-zebros-copies-point-of-sale-system)                                       | 101    | 24   | 4        |
+| [9: SFCTA Highway Sign #4902 - Remote Access Interface](solutions/09-sfcta-highway-sign-4902-remote-access-interface)            | 167    | 11   | 1        |
 | [10: Unknown Network 1 - Unknown Context](solutions/10-unknown-network-1-unknown-context)                                        | 31     | 22   | 27       |
 | [11: UC Berkeley - EECS Department](solutions/11-uc-berkeley-eecs-department)                                                    | 165    | 48   | 7        |
 | [12: Workhouse - Work Management System](solutions/12-workhouse-work-management-system)                                          | 523    | 28   | 2        |
@@ -45,8 +45,8 @@ Also include a quick `.solution` parser to [auto-generate](EXA-Parser) this repo
 | [33: TEC EXA-Blaster Modem - Pager Network](solutions/33-tec-exa-blaster-modem-pager-network)                                    | 638    | 62   | 29       |
 | [34: Mitsuzen HDI-10 - Cerebral Cortex](solutions/34-mitsuzen-hdi-10-cerebral-cortex)                                            | 8124   | 148  | 266      |
 
-| Battle                                                                                                                       | Wins |
-|------------------------------------------------------------------------------------------------------------------------------|------|
+| Battle                                                                                                                          | Wins |
+|---------------------------------------------------------------------------------------------------------------------------------|------|
 | [1: KGOG-TV - Programming Hub](battles/01-kgog-tv-programming-hub)                                                              | 100  |
 | [2: Valhalla - =Plastered](battles/02-valhalla-plastered)                                                                       | 100  |
 | [3: Deadlock's Domain - Deadlock](battles/03-deadlocks-domain-deadlock)                                                         | 100  |
@@ -54,4 +54,4 @@ Also include a quick `.solution` parser to [auto-generate](EXA-Parser) this repo
 | [5: Aberdeen - selenium_wolf](battles/05-aberdeen-seleniumwolf)                                                                 | 100  |
 <!-- EXA_END -->
 
-Enjoy!
+Wins for Battles doesn't seems to be available in the file format, I got `95` / `94` for the last two battles not `100`!

@@ -346,11 +346,11 @@ int main(int argc, char* argv[])
 
 			// Create table
 			readmeOut << "| Level";
-			for (int i = 0; i < maxChars - 5 + 1; i++) readmeOut << ' ';
+			for (int i = 0; i < maxChars - 5 + 1 + 4; i++) readmeOut << ' ';
 			readmeOut << "| Cycles | Size | Activity |" << endl;
 
 			readmeOut << "|";
-			for (int i = 0; i < maxChars + 2; i++) readmeOut << '-';
+			for (int i = 0; i < maxChars + 2 + 4; i++) readmeOut << '-';
 			readmeOut << "|--------|------|----------|" << endl;
 
 			for (int i = 0; i < ids.size(); i++) {
@@ -359,6 +359,8 @@ int main(int argc, char* argv[])
 
 				int total = maxChars - (1 + info.title.length() + 12 + info.path.length() + 1);
 				for (int j = 0; j < total; j++) readmeOut << ' ';
+
+				if (i < 9) readmeOut << ' ';
 
 				Solution solution = solutions[ids[i]];
 				readmeOut << "| ";
@@ -372,11 +374,11 @@ int main(int argc, char* argv[])
 
 			// Create battle
 			readmeOut << endl << "| Battle";
-			for (int i = 0; i < maxChars - 5 + 0; i++) readmeOut << ' ';
+			for (int i = 0; i < maxChars - 5 + 3; i++) readmeOut << ' ';
 			readmeOut << "| Wins |" << endl;
 
 			readmeOut << "|";
-			for (int i = 0; i < maxChars + 2; i++) readmeOut << '-';
+			for (int i = 0; i < maxChars + 2 + 3; i++) readmeOut << '-';
 			readmeOut << "|------|" << endl;
 
 			for (int i = 0; i < battles.size(); i++) {
