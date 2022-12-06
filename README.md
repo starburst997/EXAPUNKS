@@ -12,6 +12,8 @@ There is no earth-shattering records here, I was playing for fun, aiming to get 
 
 Also include a quick `.solution` (game's file format) parser to [auto-generate](EXA-Parser) this repo.
 
+*Each of the solutions also include the auto-generated **GIFs** as well*
+
 ## Zines
 
 - [Issue #1](assets/digital_en_1.pdf) (language reference starts at page 14)
