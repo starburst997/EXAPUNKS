@@ -1,5 +1,7 @@
 # 31: US Government - Fema Genetic Database
 
+<div align="center"><img src="EXAPUNKS - U.S. Government (999, 131, 71, 2022-12-05-19-40-24).gif" /></div>
+
 > ﻿Overwrite the genetic sequence of ‗SEN WALKER CAINE JR‗ with the genetic sequence of ‗PRES WALKER CAINE‗ so that it looks like the younger politician is actually a clone of the older politician.
 > 
 > The names of these two politicians are available in file 300.
@@ -10,10 +12,8 @@
 
 ## Solution
 
-<div align="center"><img src="EXAPUNKS - U.S. Government (999, 131, 71, 2022-12-05-19-40-24).gif" /></div>
-
 ### XA (local)
-```exa
+```asm
 ; FIRST ATTEMPTS WERE
 ; BAD, BUT IM HAPPY
 ; WITH THIS ONE
@@ -184,4 +184,3 @@ WIPE
 | Cycles | Size | Activity |
 |--------|------|----------|
 | 999    | 131  | 71       |
-|--------|------|----------|

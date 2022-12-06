@@ -1,5 +1,7 @@
 # 21: Sawayama Wonderdisc - Drive Controller
 
+<div align="center"><img src="EXAPUNKS - Sawayama WonderDisc (8294, 58, 124, 2022-12-05-19-33-53).gif" /></div>
+
 > Modify your WonderDisc, which normally only plays SSEA region games, to play games from any region.
 > 
 > The SSEA region code is available in file 300.
@@ -10,10 +12,8 @@
 
 ## Solution
 
-<div align="center"><img src="EXAPUNKS - Sawayama WonderDisc (8294, 58, 124, 2022-12-05-19-33-53).gif" /></div>
-
 ### XA (global)
-```exa
+```asm
 LINK 800
 
 COPY 8 #AUTH
@@ -51,7 +51,7 @@ JUMP READ_TRAK
 ```
 
 ### XB (local)
-```exa
+```asm
 LINK 800
 
 MARK START
@@ -72,7 +72,7 @@ JUMP START
 ```
 
 ### XC (local)
-```exa
+```asm
 GRAB 300
 LINK 800
 JUMP RELAY
@@ -95,4 +95,3 @@ JUMP RELAY
 | Cycles | Size | Activity |
 |--------|------|----------|
 | 8294   | 58   | 124      |
-|--------|------|----------|

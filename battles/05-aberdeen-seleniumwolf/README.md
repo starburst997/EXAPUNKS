@@ -1,5 +1,7 @@
 # 5: Aberdeen - selenium_wolf
 
+<div align="center"><img src="EXAPUNKS - Aberdeen (2022-12-05-19-40-00).gif" /></div>
+
 > To win this battle you must occupy a majority of the hosts for as long as possible. You occupy a host if you have more EXAs in it than your opponent.
 > 
 >      Gain one point every cycle you occupy more hosts than your opponent.
@@ -12,10 +14,8 @@
 
 ## Solution
 
-<div align="center"><img src="EXAPUNKS - Aberdeen (2022-12-05-19-40-00).gif" /></div>
-
 ### XA (global)
-```exa
+```asm
 GRAB 300
 COPY F M
 COPY F M
@@ -25,7 +25,7 @@ COPY F M
 ```
 
 ### XB (global)
-```exa
+```asm
 LINK 800
 GRAB 200
 SEEK 9999

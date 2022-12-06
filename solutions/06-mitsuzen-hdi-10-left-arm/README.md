@@ -1,5 +1,7 @@
 # 6: Mitsuzen HDI-10 - Left Arm
 
+<div align="center"><img src="EXAPUNKS - Mitsuzen HDI-10 (241, 23, 6, 2022-12-05-19-20-25).gif" /></div>
+
 > Read a value from the nerve connected to your central nervous system (CNS) and relay it to the nerve connected to your arm (ARM), clamping the value so that it never goes below -120 or above 50. Repeat _ad infinitum_.
 > 
 > Since this task takes place inside a network you control— that is, your own body— it is not necessary to leave no trace. Your EXAs should be written to operate indefinitely.
@@ -10,10 +12,8 @@
 
 ## Solution
 
-<div align="center"><img src="EXAPUNKS - Mitsuzen HDI-10 (241, 23, 6, 2022-12-05-19-20-25).gif" /></div>
-
 ### XA (global)
-```exa
+```asm
 LINK 800
 MARK LOOP
 COPY #NERV X
@@ -35,7 +35,7 @@ JUMP LOOP
 ```
 
 ### XB (global)
-```exa
+```asm
 LINK 800
 LINK 1
 LINK 1
@@ -50,4 +50,3 @@ JUMP LOOP
 | Cycles | Size | Activity |
 |--------|------|----------|
 | 241    | 23   | 6        |
-|--------|------|----------|

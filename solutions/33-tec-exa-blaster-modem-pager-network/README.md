@@ -1,5 +1,7 @@
 # 33: TEC EXA-Blaster Modem - Pager Network
 
+<div align="center"><img src="EXAPUNKS - TEC EXA-Blaster™ Modem (638, 62, 29, 2022-12-05-19-41-45).gif" /></div>
+
 > Connect to each pager and copy EMBER-2's message (file 300) to the screen (#DATA). Then activate all of the pagers at exactly the same time by writing a value to each #PAGE register in the same cycle.
 > 
 > A list of phone numbers for the pagers is available in file 301.
@@ -8,10 +10,8 @@
 
 ## Solution
 
-<div align="center"><img src="EXAPUNKS - TEC EXA-Blaster™ Modem (638, 62, 29, 2022-12-05-19-41-45).gif" /></div>
-
 ### XA (local)
-```exa
+```asm
 ; SYNC ALL EXA TO PAGE
 ; AT THE SAME TIME
 ; KINDA TRICKY, HAD
@@ -76,7 +76,7 @@ COPY 1 #PAGE
 ```
 
 ### XB (local)
-```exa
+```asm
 ; I CALCULATED THE MAGIC
 ; NUMBERS BY FINDING THE
 ; CORRECT ONE FOR 2 TEST
@@ -119,4 +119,3 @@ JUMP BROADCAST
 | Cycles | Size | Activity |
 |--------|------|----------|
 | 638    | 62   | 29       |
-|--------|------|----------|

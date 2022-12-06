@@ -1,5 +1,7 @@
 # 25: KGOG-TV - Satellite Uplink
 
+<div align="center"><img src="EXAPUNKS - KGOG-TV (502, 79, 6, 2022-12-05-19-36-12).gif" /></div>
+
 > Align the satellite dish with the target satellite by setting the azimuth, elevation, and frequency. Then transmit the data from EMBER-2's video (file 301) after encrypting it using the TV station's encryption key (file 199).
 > 
 > The azimuth, elevation, and frequency of the target satellite are available in file 300.
@@ -10,10 +12,8 @@
 
 ## Solution
 
-<div align="center"><img src="EXAPUNKS - KGOG-TV (502, 79, 6, 2022-12-05-19-36-12).gif" /></div>
-
 ### XA (global)
-```exa
+```asm
 ; MOVE MOTR
 GRAB 300
 LINK 800
@@ -67,7 +67,7 @@ COPY 1 M
 ```
 
 ### XB (global)
-```exa
+```asm
 ; TRANSMIT
 GRAB 301
 SEEK 1
@@ -130,4 +130,3 @@ MARK BROADCAST_END
 | Cycles | Size | Activity |
 |--------|------|----------|
 | 502    | 79   | 6        |
-|--------|------|----------|

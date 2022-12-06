@@ -1,5 +1,7 @@
 # 34: Mitsuzen HDI-10 - Cerebral Cortex
 
+<div align="center"><img src="EXAPUNKS - Mitsuzen HDI-10 (8124, 148, 266, 2022-12-05-19-42-16).gif" /></div>
+
 > Create a file in your host containing the hostname and hardware register value of each neuron exactly once, sorted as pairs from lowest to highest hostname.
 > 
 > Note that each test run has its own unique network layout.
@@ -8,10 +10,8 @@
 
 ## Solution
 
-<div align="center"><img src="EXAPUNKS - Mitsuzen HDI-10 (8124, 148, 266, 2022-12-05-19-42-16).gif" /></div>
-
 ### XA (local)
-```exa
+```asm
 ; KEEP A FILE AS A LOG
 ; ALL LINKS TRAVERSE
 ;
@@ -226,7 +226,7 @@ COPY T M
 ```
 
 ### XB (global)
-```exa
+```asm
 ; RECEIVE #NERV
 MAKE
 
@@ -239,4 +239,3 @@ JUMP LOOP
 | Cycles | Size | Activity |
 |--------|------|----------|
 | 8124   | 148  | 266      |
-|--------|------|----------|

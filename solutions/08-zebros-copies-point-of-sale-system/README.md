@@ -1,5 +1,7 @@
 # 8: Zebros Copies - Point-Of-Sale System
 
+<div align="center"><img src="EXAPUNKS - Zebros Copies (101, 24, 4, 2022-12-05-19-20-53).gif" /></div>
+
 > Erase Ghast's debt to the copy shop by zeroing out his balance in the customer database (file 200) and appending a payment to the payment log (file 201) with today's date and the exact amount of his prior balance.
 > 
 > Ghast's customer ID is available in file 300.
@@ -8,10 +10,8 @@
 
 ## Solution
 
-<div align="center"><img src="EXAPUNKS - Zebros Copies (101, 24, 4, 2022-12-05-19-20-53).gif" /></div>
-
 ### XA (global)
-```exa
+```asm
 LINK 800
 LINK 801
 COPY #DATE X
@@ -25,7 +25,7 @@ COPY M F
 ```
 
 ### XB (global)
-```exa
+```asm
 GRAB 300
 COPY F X
 DROP
@@ -46,4 +46,3 @@ COPY 0 F
 | Cycles | Size | Activity |
 |--------|------|----------|
 | 101    | 24   | 4        |
-|--------|------|----------|

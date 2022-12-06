@@ -1,15 +1,15 @@
 # 22: Alliance Power and Light - Streetsmarts GIS Database
 
+<div align="center"><img src="EXAPUNKS - Alliance Power and Light (44, 45, 44, 2022-12-05-19-35-09).gif" /></div>
+
 > Locate the two hosts with the specified hostnames (file 300), which correspond to the target power grid substations. When you've found them, cut the power by writing a value of 0 to #POWR.
 > 
 > For more information see "Network Exploration: Geographic Information Systems" in the second issue of the zine.
 
 ## Solution
 
-<div align="center"><img src="EXAPUNKS - Alliance Power and Light (44, 45, 44, 2022-12-05-19-35-09).gif" /></div>
-
 ### XA (global)
-```exa
+```asm
 GRAB 300
 COPY F X
 DROP
@@ -41,7 +41,7 @@ JUMP WALK
 ```
 
 ### XB (global)
-```exa
+```asm
 NOOP
 NOOP
 NOOP
@@ -83,4 +83,3 @@ JUMP WALK
 | Cycles | Size | Activity |
 |--------|------|----------|
 | 44     | 45   | 44       |
-|--------|------|----------|

@@ -1,5 +1,7 @@
 # 12: Workhouse - Work Management System
 
+<div align="center"><img src="EXAPUNKS - WorkHouse (523, 28, 2, 2022-12-05-19-21-45).gif" /></div>
+
 > Locate EMBER-2's user file in the *users* host and overwrite it so that the sum of the values is the same but no individual value exceeds $75. All values, except for the last, must be the maximum value ($75). You will need to add additional values to accomplish this.
 > 
 > EMBER-2's username is available in file 300.
@@ -10,10 +12,8 @@
 
 ## Solution
 
-<div align="center"><img src="EXAPUNKS - WorkHouse (523, 28, 2, 2022-12-05-19-21-45).gif" /></div>
-
 ### XA (global)
-```exa
+```asm
 GRAB 300
 COPY F X
 DROP
@@ -52,4 +52,3 @@ COPY X F
 | Cycles | Size | Activity |
 |--------|------|----------|
 | 523    | 28   | 2        |
-|--------|------|----------|

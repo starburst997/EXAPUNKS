@@ -44,7 +44,6 @@ Also include a quick `.solution` parser to [auto-generate](EXA-Parser) this repo
 | [Unknown Network 2 - Unknown Context](solutions/32-unknown-network-2-unknown-context)                                   | 243    | 55   | 53       |
 | [TEC EXA-Blaster Modem - Pager Network](solutions/33-tec-exa-blaster-modem-pager-network)                               | 638    | 62   | 29       |
 | [Mitsuzen HDI-10 - Cerebral Cortex](solutions/34-mitsuzen-hdi-10-cerebral-cortex)                                       | 8124   | 148  | 266      |
-|-------------------------------------------------------------------------------------------------------------------------|--------|------|----------|
 | Battle                                                                                                                  | Wins |
 |-------------------------------------------------------------------------------------------------------------------------|------|
 | [KGOG-TV - Programming Hub](battles/01-kgog-tv-programming-hub)                                                         | 100  |
@@ -52,7 +51,6 @@ Also include a quick `.solution` parser to [auto-generate](EXA-Parser) this repo
 | [Deadlock's Domain - Deadlock](battles/03-deadlocks-domain-deadlock)                                                    | 100  |
 | [The Wormhole - X10X10X](battles/04-the-wormhole-x10x10x)                                                               | 100  |
 | [Aberdeen - selenium_wolf](battles/05-aberdeen-seleniumwolf)                                                            | 100  |
-|-------------------------------------------------------------------------------------------------------------------------|------|
 <!-- EXA_END -->
 
 Enjoy!

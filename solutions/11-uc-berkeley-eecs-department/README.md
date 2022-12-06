@@ -1,5 +1,7 @@
 # 11: UC Berkeley - EECS Department
 
+<div align="center"><img src="EXAPUNKS - UC Berkeley (165, 48, 7, 2022-12-05-19-21-30).gif" /></div>
+
 > ﻿Locate the specified host (either *tape-1*, *tape-2*, or *tape-3*), and then locate the specified entry (‗ПАСЬЯНС‗) in the tape backup file in that host (file 200). Create a file in your host containing the entry's data.
 > 
 > The names of the target host and entry are available in file 300.
@@ -8,10 +10,8 @@
 
 ## Solution
 
-<div align="center"><img src="EXAPUNKS - UC Berkeley (165, 48, 7, 2022-12-05-19-21-30).gif" /></div>
-
 ### XA (global)
-```exa
+```asm
 GRAB 300
 COPY F X
 DROP
@@ -48,7 +48,7 @@ FJMP COPYING
 ```
 
 ### XB (global)
-```exa
+```asm
 NOOP
 NOOP
 GRAB 300
@@ -74,4 +74,3 @@ FJMP COPYING
 | Cycles | Size | Activity |
 |--------|------|----------|
 | 165    | 48   | 7        |
-|--------|------|----------|

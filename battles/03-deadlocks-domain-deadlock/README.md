@@ -1,5 +1,7 @@
 # 3: Deadlock's Domain - Deadlock
 
+<div align="center"><img src="EXAPUNKS - Deadlock's Domain (2022-12-05-19-35-20).gif" /></div>
+
 > To win this battle you must grab files as they spawn in the central hosts and bring them back to your host. 
 > 
 > Reading the #FILE register will tell you the ID of the most recently created file currently in that host.
@@ -12,10 +14,8 @@
 
 ## Solution
 
-<div align="center"><img src="EXAPUNKS - Deadlock's Domain (2022-12-05-19-35-20).gif" /></div>
-
 ### XA (global)
-```exa
+```asm
 LINK 800
 LINK 799
 GRAB 199
@@ -26,7 +26,7 @@ WIPE
 ```
 
 ### XB (global)
-```exa
+```asm
 LINK 800
 LINK 800
 MAKE

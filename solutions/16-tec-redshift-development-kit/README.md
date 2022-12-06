@@ -1,13 +1,13 @@
 # 16: TEC Redshift - Development Kit
 
+<div align="center"><img src="EXAPUNKS - TEC Redshift™ (7944, 27, 4, 2022-12-05-19-23-05).gif" /></div>
+
 > There is an unknown three-digit code (such as 4-7-3) that, when entered one digit at a time into #PASS, will unlock the link between *debug* and *secret*. Find the three-digit code and create a file in your host that contains the code as a sequence of three values, followed by the development kit's RDK ID.
 
 ## Solution
 
-<div align="center"><img src="EXAPUNKS - TEC Redshift™ (7944, 27, 4, 2022-12-05-19-23-05).gif" /></div>
-
 ### XA (global)
-```exa
+```asm
 LINK 800
 
 MARK BRUTE_FORCE
@@ -45,4 +45,3 @@ COPY M X
 | Cycles | Size | Activity |
 |--------|------|----------|
 | 7943   | 26   | 4        |
-|--------|------|----------|

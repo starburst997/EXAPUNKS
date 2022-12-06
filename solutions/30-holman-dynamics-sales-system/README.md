@@ -1,15 +1,15 @@
 # 30: Holman Dynamics - Sales System
 
+<div align="center"><img src="EXAPUNKS - Holman Dynamics (4459, 119, 7, 2022-12-05-19-38-24).gif" /></div>
+
 > Create a file in your host containing the contiguous 16-value sequence from the garbage file (file 199) that is a valid credit card number. There will be exactly one such sequence.
 > 
 > For more information see "How to Validate Credit Card Numbers" in the second issue of the zine.
 
 ## Solution
 
-<div align="center"><img src="EXAPUNKS - Holman Dynamics (4459, 119, 7, 2022-12-05-19-38-24).gif" /></div>
-
 ### XA (global)
-```exa
+```asm
 LINK 800
 LINK 802
 LINK 799
@@ -85,7 +85,7 @@ KILL
 ```
 
 ### XB (global)
-```exa
+```asm
 ; TRANSFORM ODD #
 JUMP LOOP
 
@@ -105,4 +105,3 @@ JUMP LOOP
 | Cycles | Size | Activity |
 |--------|------|----------|
 | 4459   | 119  | 7        |
-|--------|------|----------|
