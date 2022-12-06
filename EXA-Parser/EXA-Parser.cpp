@@ -188,7 +188,7 @@ int main(int argc, char* argv[])
 
 		Info info = { id, description, title, path, gifs[globalCounter].name };
 
-		int total = 1 + title.length() + 12 + path.length() + 1;
+		int total = 1 + 5 + title.length() + 12 + path.length() + 1;
 		if (total > maxChars) maxChars = total;
 
 		cout << "    " << id << ": " << title << endl;
@@ -355,7 +355,7 @@ int main(int argc, char* argv[])
 
 			for (int i = 0; i < ids.size(); i++) {
 				Info info = dataMap[ids[i]];
-				readmeOut << "| [" << info.title << "](solutions/" << info.path << ") ";
+				readmeOut << "| [" << to_string(i + 1) << ": " << info.title << "](solutions/" << info.path << ") ";
 
 				int total = maxChars - (1 + info.title.length() + 12 + info.path.length() + 1);
 				for (int j = 0; j < total; j++) readmeOut << ' ';
@@ -381,7 +381,7 @@ int main(int argc, char* argv[])
 
 			for (int i = 0; i < battles.size(); i++) {
 				Info info = dataMap[battles[i]];
-				readmeOut << "| [" << info.title << "](battles/" << info.path << ") ";
+				readmeOut << "| [" << to_string(i + 1) << ": " << info.title << "](battles/" << info.path << ") ";
 
 				int total = maxChars - (1 + info.title.length() + 10 + info.path.length() + 1);
 				for (int j = 0; j < total; j++) readmeOut << ' ';
