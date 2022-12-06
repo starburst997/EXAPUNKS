@@ -12,6 +12,7 @@ I loved comparing the different solutions people came up with after I finished t
   - All EXAs code inline
   - Display if EXA is local / global
   - Results (cycles / size / activity)
+- Keep only the solutions with the less cycles
 - Keep original save files
 - Text files (`.exa`) for each EXAs 
 - Separate folder for battles / levels
