@@ -370,10 +370,6 @@ int main(int argc, char* argv[])
 				readmeOut << " |" << endl;
 			}
 
-			readmeOut << "|";
-			for (int i = 0; i < maxChars + 2; i++) readmeOut << '-';
-			readmeOut << "|--------|------|----------|" << endl;
-
 			// Create battle
 			readmeOut << "| Battle";
 			for (int i = 0; i < maxChars - 5 + 0; i++) readmeOut << ' ';
@@ -395,10 +391,6 @@ int main(int argc, char* argv[])
 				writeNum(readmeOut, solution.wins, 4);
 				readmeOut << " |" << endl;
 			}
-
-			readmeOut << "|";
-			for (int i = 0; i < maxChars + 2; i++) readmeOut << '-';
-			readmeOut << "|------|" << endl;
 		}
 		else if (line == "<!-- EXA_END -->") {
 			readmeOut << line << endl;
@@ -425,7 +417,11 @@ int main(int argc, char* argv[])
 		ofstream readmeOut(pathOutputSolutions / info.path / "README.md");
 
 		readmeOut << "# " << to_string(i + 1) << ": " << info.title << endl << endl;
-		
+
+		// Copy GIF
+		fs::copy(info.gif, pathOutputSolutions / info.path / info.gif.filename());
+		readmeOut << "<div align=\"center\"><img src=\"" << info.gif.filename().string() << "\" /></div>" << endl << endl;
+
 		// Read description files
 		ifstream descriptionStream(pathDescriptions / info.description);
 		if (descriptionStream) {
@@ -437,17 +433,13 @@ int main(int argc, char* argv[])
 
 		readmeOut << "## Solution" << endl << endl;
 
-		// Copy GIF
-		fs::copy(info.gif, pathOutputSolutions / info.path / info.gif.filename());
-		readmeOut << "<div align=\"center\"><img src=\"" << info.gif.filename().string() << "\" /></div>" << endl << endl;
-
 		// Add source as well
 		Solution solution = solutions[ids[i]];
 
 		for (int j = 0; j < solution.exas.size(); j++) {
 			EXA exa = solution.exas[j];
 			readmeOut << "### " << exa.name << " (" << (exa.local ? "local" : "global") << ")" << endl;
-			readmeOut << "```exa" << endl;
+			readmeOut << "```asm" << endl;
 			readmeOut << exa.source << endl;
 			readmeOut << "```" << endl << endl;
 
@@ -470,7 +462,6 @@ int main(int argc, char* argv[])
 		readmeOut << " | ";
 		writeNum(readmeOut, solution.activity, ACTIVITY_N);
 		readmeOut << " |" << endl;
-		readmeOut << "|--------|------|----------|" << endl;
 	}
 
 	// Create battles folder
@@ -484,6 +475,10 @@ int main(int argc, char* argv[])
 
 		readmeOut << "# " << to_string(i + 1) << ": " << info.title << endl << endl;
 
+		// Copy GIF
+		fs::copy(info.gif, pathOutputBattles / info.path / info.gif.filename());
+		readmeOut << "<div align=\"center\"><img src=\"" << info.gif.filename().string() << "\" /></div>" << endl << endl;
+
 		// Read description files
 		ifstream descriptionStream(pathDescriptions / info.description);
 		if (descriptionStream) {
@@ -495,17 +490,13 @@ int main(int argc, char* argv[])
 
 		readmeOut << "## Solution" << endl << endl;
 
-		// Copy GIF
-		fs::copy(info.gif, pathOutputBattles / info.path / info.gif.filename());
-		readmeOut << "<div align=\"center\"><img src=\"" << info.gif.filename().string() << "\" /></div>" << endl << endl;
-
 		// Add source as well
 		Solution solution = solutions[ids[i]];
 
 		for (int j = 0; j < solution.exas.size(); j++) {
 			EXA exa = solution.exas[j];
 			readmeOut << "### " << exa.name << " (" << (exa.local ? "local" : "global") << ")" << endl;
-			readmeOut << "```exa" << endl;
+			readmeOut << "```asm" << endl;
 			readmeOut << exa.source << endl;
 			readmeOut << "```" << endl << endl;
 
