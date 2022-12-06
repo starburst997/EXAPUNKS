@@ -499,7 +499,7 @@ int main(int argc, char* argv[])
 		readmeOut << "## Solution" << endl << endl;
 
 		// Add source as well
-		Solution solution = solutions[ids[i]];
+		Solution solution = solutions[battles[i]];
 
 		for (int j = 0; j < solution.exas.size(); j++) {
 			EXA exa = solution.exas[j];
