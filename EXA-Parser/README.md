@@ -1,5 +1,5 @@
 # EXA-Parser
-Super simple C++17 script to automatically create [this repo](https://github.com/starburst997/EXAPUNKS) by parsing the save files from the game [EXAPUNKS](https://store.steampowered.com/app/716490/EXAPUNKS/) by [Zachtronics](https://www.zachtronics.com/).
+Simple C++17 script to automatically create [this repo](https://github.com/starburst997/EXAPUNKS) by parsing the save files from the game [EXAPUNKS](https://store.steampowered.com/app/716490/EXAPUNKS/) by [Zachtronics](https://www.zachtronics.com/).
 
 I really enjoyed it and wanted to showcase my solutions (and possibly revisit them later on) so I made this CLI tool as a before-going-to-bed project. I was inspired by other repos as well, like [this one](https://github.com/StinkingBanana/exapunks-solutions) or [that one](https://github.com/Seraphli/EXAPunks), but I felt like the presentation could be improved by [showing everything in a README](https://github.com/starburst997/EXAPUNKS/tree/main/solutions/23-xtreme-league-baseball-player-database), giving better insight and making things easier to follow. 
 
