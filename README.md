@@ -1,8 +1,7 @@
 <p align="center"><a href="https://store.steampowered.com/app/716490/EXAPUNKS/" target="_blank" rel="noopener noreferrer"><img src="assets/header.jpg" alt="EXAPUNKS logo"></a></p>
+> The year is 1997. You used to be a hacker, but now you have the phage. You made a deal: one hack, one dose. There’s nothing left to lose… except your life.
 
 # EXAPUNKS
-
-> The year is 1997. You used to be a hacker, but now you have the phage. You made a deal: one hack, one dose. There’s nothing left to lose… except your life.
 
 My solutions to the game [EXAPUNKS](https://store.steampowered.com/app/716490/EXAPUNKS/) by [Zachtronics](https://www.zachtronics.com/) in which you need to solve puzzles by writing tiny programs in an [assembly-like language](https://steamcommunity.com/sharedfiles/filedetails/?id=1480557969).
 
@@ -62,9 +61,11 @@ Also include a quick `.solution` (game's file format) parser to [auto-generate](
 | [1: KGOG-TV (Programming Hub)](battles/01-kgog-tv-programming-hub)                                                              | 100  | 0     | 0      | S+     |
 | [2: Valhalla (=Plastered)](battles/02-valhalla-plastered)                                                                       | 100  | 0     | 0      | S+     |
 | [3: Deadlock's Domain (Deadlock)](battles/03-deadlocks-domain-deadlock)                                                         | 100  | 0     | 0      | S+     |
-| [4: The Wormhole (X10X10X)](battles/04-the-wormhole-x10x10x)                                                                    | 100  | 0     | 0      | S+     |
-| [5: Aberdeen (selenium_wolf)](battles/05-aberdeen-seleniumwolf)                                                                 | 100  | 0     | 0      | S+     |
+| [4: The Wormhole (X10X10X)](battles/04-the-wormhole-x10x10x)                                                                    | 95   | 0     | 5      | S      |
+| [5: Aberdeen (selenium_wolf)](battles/05-aberdeen-seleniumwolf)                                                                 | 94   | 0     | 6      | A      |
 <!-- EXA_END -->
 
 ### TODO
 - [ ] Generate circa 1997 geocities static html pages as well
+- [ ] [Achievemets](https://steamcommunity.com/stats/716490/achievements)
+- [ ] Bonus Levels
