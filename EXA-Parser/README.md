@@ -92,6 +92,6 @@ Battles stats are not saved in the file format it seems. You need to update the 
 ## Contact
 If you used this tool to create a repo please send it my way to `jd@boiv.in`! Or simply fork this repo and I'll get a notification.
 
-*A hacker at heart, I'm always looking for freelance / contract work, feel free to get in touch!*
+*A hacker at heart, I'm always looking for **freelance** / **contract** work, feel free to get in touch!*
 
 Enjoy!
