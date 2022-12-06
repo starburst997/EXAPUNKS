@@ -48,6 +48,7 @@ Also include a quick `.solution` parser to [auto-generate](EXA-Parser) this repo
 ---
 
 | Battle                                                                                                                  | Wins |
+|-------------------------------------------------------------------------------------------------------------------------|------|
 | [KGOG-TV - Programming Hub](battles/01-kgog-tv-programming-hub)                                                         | 100  |
 | [Valhalla - =Plastered](battles/02-valhalla-plastered)                                                                  | 100  |
 | [Deadlock's Domain - Deadlock](battles/03-deadlocks-domain-deadlock)                                                    | 100  |
