@@ -1,4 +1,4 @@
-# 3: Deadlock's Domain - Deadlock
+# 3: Deadlock's Domain (Deadlock)
 
 <div align="center"><img src="EXAPUNKS - Deadlock's Domain (2022-12-05-19-35-20).gif" /></div>
 

@@ -1,4 +1,4 @@
-# 18: TEC EXA-Blaster Modem - Radio Stations
+# 18: TEC EXA-Blaster Modem (Radio Stations)
 
 <div align="center"><img src="EXAPUNKS - TEC EXA-Blaster™ Modem (874, 57, 18, 2022-12-05-19-32-10).gif" /></div>
 

@@ -1,4 +1,4 @@
-# 12: Workhouse - Work Management System
+# 12: Workhouse (Work Management System)
 
 <div align="center"><img src="EXAPUNKS - WorkHouse (523, 28, 2, 2022-12-05-19-21-45).gif" /></div>
 

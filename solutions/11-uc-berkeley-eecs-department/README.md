@@ -1,4 +1,4 @@
-# 11: UC Berkeley - EECS Department
+# 11: UC Berkeley (EECS Department)
 
 <div align="center"><img src="EXAPUNKS - UC Berkeley (165, 48, 7, 2022-12-05-19-21-30).gif" /></div>
 

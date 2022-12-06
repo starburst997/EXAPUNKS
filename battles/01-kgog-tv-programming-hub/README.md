@@ -1,4 +1,4 @@
-# 1: KGOG-TV - Programming Hub
+# 1: KGOG-TV (Programming Hub)
 
 <div align="center"><img src="EXAPUNKS - KGOG-TV (2022-12-05-19-22-41).gif" /></div>
 

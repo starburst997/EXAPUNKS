@@ -1,4 +1,4 @@
-# 5: Aberdeen - selenium_wolf
+# 5: Aberdeen (selenium_wolf)
 
 <div align="center"><img src="EXAPUNKS - Aberdeen (2022-12-05-19-40-00).gif" /></div>
 

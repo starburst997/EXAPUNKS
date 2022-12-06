@@ -1,4 +1,4 @@
-# 6: Mitsuzen HDI-10 - Left Arm
+# 6: Mitsuzen HDI-10 (Left Arm)
 
 <div align="center"><img src="EXAPUNKS - Mitsuzen HDI-10 (241, 23, 6, 2022-12-05-19-20-25).gif" /></div>
 

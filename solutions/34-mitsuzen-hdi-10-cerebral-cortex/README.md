@@ -1,4 +1,4 @@
-# 34: Mitsuzen HDI-10 - Cerebral Cortex
+# 34: Mitsuzen HDI-10 (Cerebral Cortex)
 
 <div align="center"><img src="EXAPUNKS - Mitsuzen HDI-10 (8124, 148, 266, 2022-12-05-19-42-16).gif" /></div>
 

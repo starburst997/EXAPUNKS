@@ -1,4 +1,4 @@
-# 28: Last Stop Snaxnet - Warehouse 27
+# 28: Last Stop Snaxnet (Warehouse 27)
 
 <div align="center"><img src="EXAPUNKS - Last Stop SNAXNET (301, 98, 30, 2022-12-05-19-37-37).gif" /></div>
 

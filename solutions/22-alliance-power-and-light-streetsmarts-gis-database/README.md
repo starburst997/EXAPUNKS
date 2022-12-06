@@ -1,4 +1,4 @@
-# 22: Alliance Power and Light - Streetsmarts GIS Database
+# 22: Alliance Power and Light (Streetsmarts GIS Database)
 
 <div align="center"><img src="EXAPUNKS - Alliance Power and Light (44, 45, 44, 2022-12-05-19-35-09).gif" /></div>
 

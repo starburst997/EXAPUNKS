@@ -1,4 +1,4 @@
-# 16: TEC Redshift - Development Kit
+# 16: TEC Redshift (Development Kit)
 
 <div align="center"><img src="EXAPUNKS - TEC Redshift™ (7944, 27, 4, 2022-12-05-19-23-05).gif" /></div>
 

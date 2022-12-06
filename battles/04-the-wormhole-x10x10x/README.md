@@ -1,4 +1,4 @@
-# 4: The Wormhole - X10X10X
+# 4: The Wormhole (X10X10X)
 
 <div align="center"><img src="EXAPUNKS - The Wormhole (2022-12-05-19-36-44).gif" /></div>
 

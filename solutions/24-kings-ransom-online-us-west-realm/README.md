@@ -1,4 +1,4 @@
-# 24: King's Ransom Online - US West Realm
+# 24: King's Ransom Online (US West Realm)
 
 <div align="center"><img src="EXAPUNKS - King's Ransom Online (110, 49, 39, 2022-12-05-19-35-52).gif" /></div>
 

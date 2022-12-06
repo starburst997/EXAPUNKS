@@ -1,4 +1,4 @@
-# 2: Valhalla - =Plastered
+# 2: Valhalla (=Plastered)
 
 <div align="center"><img src="EXAPUNKS - Valhalla (2022-12-05-19-33-03).gif" /></div>
 

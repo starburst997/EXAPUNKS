@@ -1,4 +1,4 @@
-# 29: Mitsuzen HDI-10 - Visual Cortex
+# 29: Mitsuzen HDI-10 (Visual Cortex)
 
 <div align="center"><img src="EXAPUNKS - Mitsuzen HDI-10 (1878, 41, 359, 2022-12-05-19-37-59).gif" /></div>
 

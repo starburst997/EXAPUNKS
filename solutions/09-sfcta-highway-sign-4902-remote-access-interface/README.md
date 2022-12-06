@@ -1,4 +1,4 @@
-# 9: SFCTA Highway Sign #4902 - Remote Access Interface
+# 9: SFCTA Highway Sign #4902 (Remote Access Interface)
 
 <div align="center"><img src="EXAPUNKS - SFCTA Highway Sign 4902 (167, 11, 1, 2022-12-05-19-21-05).gif" /></div>
 

@@ -1,4 +1,4 @@
-# 2: Trash World News - Tutorial 2
+# 2: Trash World News (Tutorial 2)
 
 <div align="center"><img src="EXAPUNKS - TRASH WORLD NEWS (7, 6, 2, 2022-12-05-19-19-49).gif" /></div>
 

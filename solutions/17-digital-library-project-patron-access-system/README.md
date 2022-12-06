@@ -1,4 +1,4 @@
-# 17: Digital Library Project - Patron Access System
+# 17: Digital Library Project (Patron Access System)
 
 <div align="center"><img src="EXAPUNKS - Digital Library Project (1489, 50, 37, 2022-12-05-19-31-17).gif" /></div>
 

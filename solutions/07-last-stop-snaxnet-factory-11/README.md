@@ -1,4 +1,4 @@
-# 7: Last Stop Snaxnet - Factory 11
+# 7: Last Stop Snaxnet (Factory 11)
 
 <div align="center"><img src="EXAPUNKS - Last Stop SNAXNET (31, 11, 2, 2022-12-05-19-20-41).gif" /></div>
 

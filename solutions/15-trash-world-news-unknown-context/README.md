@@ -1,4 +1,4 @@
-# 15: Trash World News - Unknown Context
+# 15: Trash World News (Unknown Context)
 
 <div align="center"><img src="EXAPUNKS - TRASH WORLD NEWS (568, 26, 4, 2022-12-05-19-22-30).gif" /></div>
 

@@ -1,4 +1,4 @@
-# 32: Unknown Network 2 - Unknown Context
+# 32: Unknown Network 2 (Unknown Context)
 
 <div align="center"><img src="EXAPUNKS - UNKNOWN NETWORK 2 (243, 55, 53, 2022-12-05-19-41-10).gif" /></div>
 

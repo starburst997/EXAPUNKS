@@ -1,4 +1,4 @@
-# 20: Mitsuzen HDI-10 - Left Hand
+# 20: Mitsuzen HDI-10 (Left Hand)
 
 <div align="center"><img src="EXAPUNKS - Mitsuzen HDI-10 (69, 54, 19, 2022-12-05-19-33-17).gif" /></div>
 

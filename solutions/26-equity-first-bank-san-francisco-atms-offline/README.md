@@ -1,4 +1,4 @@
-# 26: Equity First Bank - San Francisco - ATMs Offline
+# 26: Equity First Bank (San Francisco (ATMs Offline)
 
 <div align="center"><img src="EXAPUNKS - Equity First Bank (113, 52, 6, 2022-12-05-19-36-30).gif" /></div>
 

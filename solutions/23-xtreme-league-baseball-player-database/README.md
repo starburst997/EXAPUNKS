@@ -1,4 +1,4 @@
-# 23: Xtreme League Baseball - Player Database
+# 23: Xtreme League Baseball (Player Database)
 
 <div align="center"><img src="EXAPUNKS - Xtreme League Baseball (294, 70, 24, 2022-12-05-19-35-36).gif" /></div>
 

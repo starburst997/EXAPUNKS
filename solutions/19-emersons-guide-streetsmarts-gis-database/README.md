@@ -1,4 +1,4 @@
-# 19: Emerson's Guide - Streetsmarts GIS Database
+# 19: Emerson's Guide (Streetsmarts GIS Database)
 
 <div align="center"><img src="EXAPUNKS - Emerson's Guide (53, 52, 6, 2022-12-05-19-32-52).gif" /></div>
 

@@ -1,4 +1,4 @@
-# 27: TEC EXA-Blaster Modem - Dataphone Network
+# 27: TEC EXA-Blaster Modem (Dataphone Network)
 
 <div align="center"><img src="EXAPUNKS - TEC EXA-Blaster™ Modem (1151, 71, 9, 2022-12-05-19-36-59).gif" /></div>
 

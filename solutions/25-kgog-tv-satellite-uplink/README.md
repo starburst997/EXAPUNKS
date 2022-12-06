@@ -1,4 +1,4 @@
-# 25: KGOG-TV - Satellite Uplink
+# 25: KGOG-TV (Satellite Uplink)
 
 <div align="center"><img src="EXAPUNKS - KGOG-TV (502, 79, 6, 2022-12-05-19-36-12).gif" /></div>
 

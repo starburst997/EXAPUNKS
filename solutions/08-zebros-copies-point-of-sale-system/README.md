@@ -1,4 +1,4 @@
-# 8: Zebros Copies - Point-Of-Sale System
+# 8: Zebros Copies (Point-Of-Sale System)
 
 <div align="center"><img src="EXAPUNKS - Zebros Copies (101, 24, 4, 2022-12-05-19-20-53).gif" /></div>
 

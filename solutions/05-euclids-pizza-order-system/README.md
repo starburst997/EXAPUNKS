@@ -1,4 +1,4 @@
-# 5: Euclid's Pizza - Order System
+# 5: Euclid's Pizza (Order System)
 
 <div align="center"><img src="EXAPUNKS - Euclid's Pizza (13, 14, 1, 2022-12-05-19-20-15).gif" /></div>
 

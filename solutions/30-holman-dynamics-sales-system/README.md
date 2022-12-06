@@ -1,4 +1,4 @@
-# 30: Holman Dynamics - Sales System
+# 30: Holman Dynamics (Sales System)
 
 <div align="center"><img src="EXAPUNKS - Holman Dynamics (4459, 119, 7, 2022-12-05-19-38-24).gif" /></div>
 

@@ -1,4 +1,4 @@
-# 14: Mitsuzen HDI-10 - Heart
+# 14: Mitsuzen HDI-10 (Heart)
 
 <div align="center"><img src="EXAPUNKS - Mitsuzen HDI-10 (119, 32, 7, 2022-12-05-19-22-20).gif" /></div>
 

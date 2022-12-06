@@ -1,4 +1,4 @@
-# 21: Sawayama Wonderdisc - Drive Controller
+# 21: Sawayama Wonderdisc (Drive Controller)
 
 <div align="center"><img src="EXAPUNKS - Sawayama WonderDisc (8294, 58, 124, 2022-12-05-19-33-53).gif" /></div>
 

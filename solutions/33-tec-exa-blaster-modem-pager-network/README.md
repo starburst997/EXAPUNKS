@@ -1,4 +1,4 @@
-# 33: TEC EXA-Blaster Modem - Pager Network
+# 33: TEC EXA-Blaster Modem (Pager Network)
 
 <div align="center"><img src="EXAPUNKS - TEC EXA-Blaster™ Modem (638, 62, 29, 2022-12-05-19-41-45).gif" /></div>
 
