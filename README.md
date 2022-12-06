@@ -8,7 +8,7 @@ My solutions to the game [EXAPUNKS](https://store.steampowered.com/app/716490/EX
 
 Missing the bonus campaign and achievements (didn't even knew there was any!), might add them eventually, I had so much fun! Will have to play other Zachtronics games as well.
 
-There is no earth-shattering records here, I was playing for fun, aiming to get the less cycles. My solution to the last challenge is particulary bad but I wanted to finish the game (might revisit it someday).
+There is no earth-shattering records here, I was playing for fun, aiming to get the less cycles. My solution to the last challenge is particulary bad (and interesting!) but I wanted to finish the game (might revisit it someday).
 
 Also include a quick `.solution` (game's file format) parser to [auto-generate](EXA-Parser) this repo.
 
@@ -68,7 +68,30 @@ Also include a quick `.solution` (game's file format) parser to [auto-generate](
 | [5: Aberdeen (selenium_wolf)](battles/05-aberdeen-seleniumwolf)                                                                 | 94   | 0     | 6      | A      |
 <!-- EXA_END -->
 
-### TODO
-- [ ] Generate circa 1997 geocities static html pages as well
+## Save files location
+
+Gamepass PC:
+```
+%LOCALAPPDATA%\Packages\58020AllianceMetaversalSt.EXAPUNKS_j78hpz8e66gfw\SystemAppData\xgs\0009000000DE7310_00000000000000000000000065287F60\all
+```
+
+Windows:
+```
+%USERPROFILE%\Documents\My Games\EXAPUNKS\<user-id>\
+```
+
+Mac:
+```
+$HOME/Library/Application Support/EXAPUNKS/<user-id>/
+```
+
+Linux:
+```
+~/.local/share/EXAPUNKS/<user-id>/
+```
+
+## TODO
+- [ ] Generate circa 1997 geocities static html pages
 - [ ] [Achievements](https://steamcommunity.com/stats/716490/achievements)
 - [ ] Bonus Levels
+- [ ] Nonograms

@@ -96,8 +96,8 @@ int main(int argc, char* argv[])
 	cout << "  input 1: Directory to saves" << endl;
 	cout << "  input 2: Directory to gifs" << endl;
 	cout << "  input 3: Directory to descriptions" << endl;
-	cout << "  input 4: data.txt" << endl;
-	cout << "  input 5: Output Directory" << endl << endl;
+	cout << "  input 4: Output Directory" << endl;
+	cout << "  input 5: data.txt" << endl << endl;
 
 	fs::path pathSaves = "../temp/saves";
 	if (argc >= 2) pathSaves = argv[1];
@@ -120,16 +120,8 @@ int main(int argc, char* argv[])
 		return 1;
 	}
 
-	fs::path pathData = "data.txt";
-	if (argc >= 5) pathData = argv[4];
-	ifstream dataStream(pathData);
-	if (!dataStream) {
-		cout << "File (data.txt) not found!\n";
-		return 1;
-	}
-
 	fs::path pathOutput = "..";
-	if (argc >= 6) pathOutput = argv[5];
+	if (argc >= 5) pathOutput = argv[4];
 	if (!fs::is_directory(pathOutput)) {
 		fs::create_directories(pathOutput);
 
@@ -137,6 +129,14 @@ int main(int argc, char* argv[])
 			cout << "Directory for output is invalid " << fs::current_path() << endl << endl;
 			return 1;
 		}
+	}
+
+	fs::path pathData = "data.txt";
+	if (argc >= 6) pathData = argv[5];
+	ifstream dataStream(pathData);
+	if (!dataStream) {
+		cout << "File (data.txt) not found!\n";
+		return 1;
 	}
 
 	// Loop all gifs, they are badly named, so instead assume they were saved in order (sort by time)
@@ -222,11 +222,11 @@ int main(int argc, char* argv[])
 		string id = readString(solutionStream);
 		string name = readString(solutionStream);
 
-		int32_t wins;
-		solutionStream.read(reinterpret_cast<char*>(&wins), sizeof(i));
+		int32_t unknown1;
+		solutionStream.read(reinterpret_cast<char*>(&unknown1), sizeof(i));
 
-		int32_t redshift;
-		solutionStream.read(reinterpret_cast<char*>(&redshift), sizeof(i));
+		int32_t unknown2;
+		solutionStream.read(reinterpret_cast<char*>(&unknown2), sizeof(i));
 
 		// Stats
 		solutionStream.read(reinterpret_cast<char*>(&i), sizeof(i));
