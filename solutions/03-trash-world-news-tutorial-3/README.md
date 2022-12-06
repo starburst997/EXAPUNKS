@@ -9,7 +9,7 @@
 
 ## Solution
 
-### XA (global)
+### [XA](XA.exa) (global)
 ```asm
 LINK 800
 LINK 799
@@ -20,7 +20,7 @@ COPY X M
 WIPE
 ```
 
-### XB (global)
+### [XB](XB.exa) (global)
 ```asm
 LINK 800
 LINK 800

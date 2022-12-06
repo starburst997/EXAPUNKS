@@ -13,7 +13,7 @@
 
 ## Solution
 
-### XA (global)
+### [XA](XA.exa) (global)
 ```asm
 LINK 800
 
@@ -51,7 +51,7 @@ LINK -1
 JUMP READ_TRAK
 ```
 
-### XB (local)
+### [XB](XB.exa) (local)
 ```asm
 LINK 800
 
@@ -72,7 +72,7 @@ LINK -1
 JUMP START
 ```
 
-### XC (local)
+### [XC](XC.exa) (local)
 ```asm
 GRAB 300
 LINK 800

@@ -11,7 +11,7 @@
 
 ## Solution
 
-### XA (global)
+### [XA](XA.exa) (global)
 ```asm
 LINK 800
 
@@ -23,7 +23,7 @@ COPY X M
 JUMP READ
 ```
 
-### XB (global)
+### [XB](XB.exa) (global)
 ```asm
 LINK 800
 LINK 1
@@ -40,7 +40,7 @@ FJMP SEQUENCE
 JUMP BEAT
 ```
 
-### XC (global)
+### [XC](XC.exa) (global)
 ```asm
 LINK 800
 LINK 3

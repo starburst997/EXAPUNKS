@@ -13,7 +13,7 @@
 
 ## Solution
 
-### XA (local)
+### [XA](XA.exa) (local)
 ```asm
 GRAB 300
 LINK 800
@@ -58,7 +58,7 @@ MARK STOP
 LINK -1
 ```
 
-### XB (global)
+### [XB](XB.exa) (global)
 ```asm
 GRAB 301
 

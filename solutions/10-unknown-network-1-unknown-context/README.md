@@ -9,7 +9,7 @@
 
 ## Solution
 
-### XA (global)
+### [XA](XA.exa) (global)
 ```asm
 COPY 4 X
 

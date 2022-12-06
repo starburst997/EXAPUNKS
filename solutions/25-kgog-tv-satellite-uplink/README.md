@@ -13,7 +13,7 @@
 
 ## Solution
 
-### XA (global)
+### [XA](XA.exa) (global)
 ```asm
 ; MOVE MOTR
 GRAB 300
@@ -67,7 +67,7 @@ MARK END
 COPY 1 M
 ```
 
-### XB (global)
+### [XB](XB.exa) (global)
 ```asm
 ; TRANSMIT
 GRAB 301

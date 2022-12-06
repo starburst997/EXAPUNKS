@@ -11,7 +11,7 @@
 
 ## Solution
 
-### XC (global)
+### [XC](XC.exa) (global)
 ```asm
 GRAB 301
 SEEK 1

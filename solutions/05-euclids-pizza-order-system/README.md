@@ -9,7 +9,7 @@
 
 ## Solution
 
-### XA (global)
+### [XA](XA.exa) (global)
 ```asm
 GRAB 300
 COPY F M
@@ -19,7 +19,7 @@ COPY F M
 COPY F M
 ```
 
-### XB (global)
+### [XB](XB.exa) (global)
 ```asm
 LINK 800
 GRAB 200

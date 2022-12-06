@@ -13,7 +13,7 @@
 
 ## Solution
 
-### XC (global)
+### [XC](XC.exa) (global)
 ```asm
 LINK 800
 

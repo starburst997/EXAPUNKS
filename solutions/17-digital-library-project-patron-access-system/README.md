@@ -13,7 +13,7 @@
 
 ## Solution
 
-### XB (global)
+### [XB](XB.exa) (global)
 ```asm
 @REP 3
 NOOP
@@ -65,7 +65,7 @@ FJMP COPY_BOT
 MARK STOP
 ```
 
-### XA (local)
+### [XA](XA.exa) (local)
 ```asm
 GRAB 300
 MARK BOOK

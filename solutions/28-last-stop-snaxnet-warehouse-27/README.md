@@ -9,7 +9,7 @@
 
 ## Solution
 
-### XB (global)
+### [XB](XB.exa) (global)
 ```asm
 LINK 800
 LINK 798
@@ -39,7 +39,7 @@ COPY 2 M
 JUMP FWD_LISTENS
 ```
 
-### XD (local)
+### [XD](XD.exa) (local)
 ```asm
 LINK 800
 LINK 799
@@ -71,7 +71,7 @@ COPY 2 M
 JUMP START
 ```
 
-### XA (local)
+### [XA](XA.exa) (local)
 ```asm
 LINK 800
 LINK 799

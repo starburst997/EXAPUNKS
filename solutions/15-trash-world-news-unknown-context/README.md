@@ -11,7 +11,7 @@
 
 ## Solution
 
-### XA (global)
+### [XA](XA.exa) (global)
 ```asm
 GRAB 300
 MARK LOOP
@@ -22,7 +22,7 @@ FJMP LOOP
 COPY 666 M
 ```
 
-### XB (global)
+### [XB](XB.exa) (global)
 ```asm
 LINK 800
 LINK 799

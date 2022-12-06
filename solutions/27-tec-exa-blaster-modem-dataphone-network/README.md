@@ -13,7 +13,7 @@
 
 ## Solution
 
-### XB (global)
+### [XB](XB.exa) (global)
 ```asm
 GRAB 300
 REPL START

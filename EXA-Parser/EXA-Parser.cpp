@@ -1,4 +1,4 @@
-// I like to keep simple program in one file
+// I like to keep one-off simple program in one file
 // Might clean this up eventually...
 #include <map>
 #include <fstream>
@@ -34,7 +34,12 @@ struct EXA {
 struct Solution {
 	string id;
 	string name;
+
+	// Not in file format?
 	int wins;
+	int draws;
+	int losses;
+
 	int cycles;
 	int size;
 	int activity;
@@ -251,6 +256,8 @@ int main(int argc, char* argv[])
 			id,
 			name,
 			100, // TODO: Not saved in the file format?
+			0,
+			0,
 			cycles,
 			size,
 			activity,
@@ -375,11 +382,11 @@ int main(int argc, char* argv[])
 			// Create battle
 			readmeOut << endl << "| Battle";
 			for (int i = 0; i < maxChars - 5 + 3; i++) readmeOut << ' ';
-			readmeOut << "| Wins |" << endl;
+			readmeOut << "| Wins | Draws | Losses | Rating |" << endl;
 
 			readmeOut << "|";
 			for (int i = 0; i < maxChars + 2 + 3; i++) readmeOut << '-';
-			readmeOut << "|------|" << endl;
+			readmeOut << "|------|-------|--------|--------|" << endl;
 
 			for (int i = 0; i < battles.size(); i++) {
 				Info info = dataMap[battles[i]];
@@ -391,7 +398,11 @@ int main(int argc, char* argv[])
 				Solution solution = solutions[ids[i]];
 				readmeOut << "| ";
 				writeNum(readmeOut, solution.wins, 4);
-				readmeOut << " |" << endl;
+				readmeOut << " | ";
+				writeNum(readmeOut, solution.draws, 5);
+				readmeOut << " | ";
+				writeNum(readmeOut, solution.losses, 6);
+				readmeOut << " | S+     |" << endl;
 			}
 		}
 		else if (line == "<!-- EXA_END -->") {
@@ -443,7 +454,7 @@ int main(int argc, char* argv[])
 
 		for (int j = 0; j < solution.exas.size(); j++) {
 			EXA exa = solution.exas[j];
-			readmeOut << "### " << exa.name << " (" << (exa.local ? "local" : "global") << ")" << endl;
+			readmeOut << "### [" << exa.name << "](" << exa.name << ".exa) (" << (exa.local ? "local" : "global") << ")" << endl;
 			readmeOut << "```asm" << endl;
 			readmeOut << exa.source << endl;
 			readmeOut << "```" << endl << endl;
@@ -505,7 +516,7 @@ int main(int argc, char* argv[])
 
 		for (int j = 0; j < solution.exas.size(); j++) {
 			EXA exa = solution.exas[j];
-			readmeOut << "### " << exa.name << " (" << (exa.local ? "local" : "global") << ")" << endl;
+			readmeOut << "### [" << exa.name << "](" << exa.name << ".exa) (" << (exa.local ? "local" : "global") << ")" << endl;
 			readmeOut << "```asm" << endl;
 			readmeOut << exa.source << endl;
 			readmeOut << "```" << endl << endl;

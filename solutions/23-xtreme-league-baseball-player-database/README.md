@@ -13,7 +13,7 @@
 
 ## Solution
 
-### XA (local)
+### [XA](XA.exa) (local)
 ```asm
 LINK 800
 
@@ -34,7 +34,7 @@ LINK 800
 COPY -2 M
 ```
 
-### XB (local)
+### [XB](XB.exa) (local)
 ```asm
 LINK 800
 
@@ -73,7 +73,7 @@ JUMP LOOP
 MARK END
 ```
 
-### XC (local)
+### [XC](XC.exa) (local)
 ```asm
 MAKE
 

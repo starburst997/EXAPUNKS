@@ -9,7 +9,7 @@
 
 ## Solution
 
-### XA (global)
+### [XA](XA.exa) (global)
 ```asm
 LINK 800
 LINK 802
@@ -85,7 +85,7 @@ LINK -1
 KILL
 ```
 
-### XB (global)
+### [XB](XB.exa) (global)
 ```asm
 ; TRANSFORM ODD #
 JUMP LOOP

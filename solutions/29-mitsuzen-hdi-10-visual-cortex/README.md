@@ -11,7 +11,7 @@
 
 ## Solution
 
-### XB (global)
+### [XB](XB.exa) (global)
 ```asm
 LINK 800
 
@@ -45,7 +45,7 @@ LINK -1
 JUMP START
 ```
 
-### XC (global)
+### [XC](XC.exa) (global)
 ```asm
 MARK LOOP
 COPY 1 M

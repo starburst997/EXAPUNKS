@@ -17,7 +17,7 @@
 
 ## Solution
 
-### XA (global)
+### [XA](XA.exa) (global)
 ```asm
 LINK 800
 
@@ -40,7 +40,7 @@ GRAB 231
 LINK -1
 ```
 
-### XB (global)
+### [XB](XB.exa) (global)
 ```asm
 LINK 800
 
@@ -63,7 +63,7 @@ GRAB 231
 LINK -1
 ```
 
-### XC (global)
+### [XC](XC.exa) (global)
 ```asm
 LINK 800
 LINK 809

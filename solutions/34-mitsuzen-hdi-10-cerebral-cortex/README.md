@@ -11,7 +11,7 @@
 
 ## Solution
 
-### XA (local)
+### [XA](XA.exa) (local)
 ```asm
 ; KEEP A FILE AS A LOG
 ; ALL LINKS TRAVERSE
@@ -226,7 +226,7 @@ LINK T
 COPY T M
 ```
 
-### XB (global)
+### [XB](XB.exa) (global)
 ```asm
 ; RECEIVE #NERV
 MAKE

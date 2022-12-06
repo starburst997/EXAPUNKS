@@ -15,7 +15,7 @@
 
 ## Solution
 
-### XA (global)
+### [XA](XA.exa) (global)
 ```asm
 MARK BEGIN
 COPY 800 X

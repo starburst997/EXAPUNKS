@@ -1,11 +1,23 @@
+<p align="center"><a href="https://store.steampowered.com/app/716490/EXAPUNKS/" target="_blank" rel="noopener noreferrer"><img src="assets/header.jpg" alt="EXAPUNKS logo"></a></p>
+
 # EXAPUNKS
-My solutions to [EXAPUNKS](https://store.steampowered.com/app/716490/EXAPUNKS/) by [Zachtronics](https://www.zachtronics.com/) 
 
-Missing the bonus campaign, might add them eventually, I had so much fun! Will have to play other Zachtronics games as well.
+> The year is 1997. You used to be a hacker, but now you have the phage. You made a deal: one hack, one dose. There’s nothing left to lose… except your life.
 
-There is no earth-shattering records here, I was playing for fun, trying mostly to get the less cycles as possible. My solution to the last challenge is particulary bad but I wanted to finish the game (might revisit it someday).
+My solutions to the game [EXAPUNKS](https://store.steampowered.com/app/716490/EXAPUNKS/) by [Zachtronics](https://www.zachtronics.com/) in which you need to solve puzzles by writing tiny programs in an [assembly-like language](https://steamcommunity.com/sharedfiles/filedetails/?id=1480557969).
 
-Also include a quick `.solution` parser to [auto-generate](EXA-Parser) this repo.
+Missing the bonus campaign and achievements (didn't even knew there was any!), might add them eventually, I had so much fun! Will have to play other Zachtronics games as well.
+
+There is no earth-shattering records here, I was playing for fun, aiming to get the less cycles. My solution to the last challenge is particulary bad but I wanted to finish the game (might revisit it someday).
+
+Also include a quick `.solution` (game's file format) parser to [auto-generate](EXA-Parser) this repo.
+
+## Zines
+
+- [Issue #1](assets/digital_en_1.pdf) (language reference starts at page 14)
+- [Issue #2](assets/digital_en_2.pdf)
+
+## Solutions
 
 <!-- EXA_START -->
 | Level                                                                                                                            | Cycles | Size | Activity |
@@ -45,13 +57,14 @@ Also include a quick `.solution` parser to [auto-generate](EXA-Parser) this repo
 | [33: TEC EXA-Blaster Modem (Pager Network)](solutions/33-tec-exa-blaster-modem-pager-network)                                    | 638    | 62   | 29       |
 | [34: Mitsuzen HDI-10 (Cerebral Cortex)](solutions/34-mitsuzen-hdi-10-cerebral-cortex)                                            | 8124   | 148  | 266      |
 
-| Battle                                                                                                                          | Wins |
-|---------------------------------------------------------------------------------------------------------------------------------|------|
-| [1: KGOG-TV (Programming Hub)](battles/01-kgog-tv-programming-hub)                                                              | 100  |
-| [2: Valhalla (=Plastered)](battles/02-valhalla-plastered)                                                                       | 100  |
-| [3: Deadlock's Domain (Deadlock)](battles/03-deadlocks-domain-deadlock)                                                         | 100  |
-| [4: The Wormhole (X10X10X)](battles/04-the-wormhole-x10x10x)                                                                    | 100  |
-| [5: Aberdeen (selenium_wolf)](battles/05-aberdeen-seleniumwolf)                                                                 | 100  |
+| Battle                                                                                                                          | Wins | Draws | Losses | Rating |
+|---------------------------------------------------------------------------------------------------------------------------------|------|-------|--------|--------|
+| [1: KGOG-TV (Programming Hub)](battles/01-kgog-tv-programming-hub)                                                              | 100  | 0     | 0      | S+     |
+| [2: Valhalla (=Plastered)](battles/02-valhalla-plastered)                                                                       | 100  | 0     | 0      | S+     |
+| [3: Deadlock's Domain (Deadlock)](battles/03-deadlocks-domain-deadlock)                                                         | 100  | 0     | 0      | S+     |
+| [4: The Wormhole (X10X10X)](battles/04-the-wormhole-x10x10x)                                                                    | 100  | 0     | 0      | S+     |
+| [5: Aberdeen (selenium_wolf)](battles/05-aberdeen-seleniumwolf)                                                                 | 100  | 0     | 0      | S+     |
 <!-- EXA_END -->
 
-Wins for Battles doesn't seems to be available in the file format, I got `95` / `94` for the last two battles not `100`!
+### TODO
+- [ ] Generate circa 1997 geocities static html pages as well

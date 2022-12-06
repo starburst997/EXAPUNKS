@@ -11,7 +11,7 @@
 
 ## Solution
 
-### XA (global)
+### [XA](XA.exa) (global)
 ```asm
 GRAB 300
 SEEK 1

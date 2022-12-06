@@ -13,7 +13,7 @@
 
 ## Solution
 
-### XA (global)
+### [XA](XA.exa) (global)
 ```asm
 LINK 800
 MARK LOOP
@@ -35,7 +35,7 @@ JUMP LOOP
 
 ```
 
-### XB (global)
+### [XB](XB.exa) (global)
 ```asm
 LINK 800
 LINK 1

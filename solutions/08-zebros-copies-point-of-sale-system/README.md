@@ -11,7 +11,7 @@
 
 ## Solution
 
-### XA (global)
+### [XA](XA.exa) (global)
 ```asm
 LINK 800
 LINK 801
@@ -25,7 +25,7 @@ COPY M F
 COPY M F
 ```
 
-### XB (global)
+### [XB](XB.exa) (global)
 ```asm
 GRAB 300
 COPY F X

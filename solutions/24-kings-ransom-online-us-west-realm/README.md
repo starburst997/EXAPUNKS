@@ -11,7 +11,7 @@
 
 ## Solution
 
-### XA (local)
+### [XA](XA.exa) (local)
 ```asm
 GRAB 300
 COPY F T
@@ -57,7 +57,7 @@ FJMP LOOP_SUB
 MARK END
 ```
 
-### XB (local)
+### [XB](XB.exa) (local)
 ```asm
 LINK 800
 COPY 800 X

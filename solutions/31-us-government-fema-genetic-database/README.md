@@ -13,7 +13,7 @@
 
 ## Solution
 
-### XA (local)
+### [XA](XA.exa) (local)
 ```asm
 ; FIRST ATTEMPTS WERE
 ; BAD, BUT IM HAPPY

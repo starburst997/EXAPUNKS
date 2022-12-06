@@ -15,7 +15,7 @@
 
 ## Solution
 
-### XB (global)
+### [XB](XB.exa) (global)
 ```asm
 LINK 800
 LINK 801
@@ -37,7 +37,7 @@ MARK NUKE
 COPY 1 #NUKE
 ```
 
-### XC (global)
+### [XC](XC.exa) (global)
 ```asm
 LINK 800
 LINK 802

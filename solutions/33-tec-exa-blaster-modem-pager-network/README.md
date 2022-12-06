@@ -11,7 +11,7 @@
 
 ## Solution
 
-### XA (local)
+### [XA](XA.exa) (local)
 ```asm
 ; SYNC ALL EXA TO PAGE
 ; AT THE SAME TIME
@@ -76,7 +76,7 @@ TJMP WAIT_CYCLE
 COPY 1 #PAGE
 ```
 
-### XB (local)
+### [XB](XB.exa) (local)
 ```asm
 ; I CALCULATED THE MAGIC
 ; NUMBERS BY FINDING THE

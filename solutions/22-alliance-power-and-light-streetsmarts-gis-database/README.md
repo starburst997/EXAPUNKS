@@ -9,7 +9,7 @@
 
 ## Solution
 
-### XA (global)
+### [XA](XA.exa) (global)
 ```asm
 GRAB 300
 COPY F X
@@ -41,7 +41,7 @@ TJMP CUT_POWER
 JUMP WALK
 ```
 
-### XB (global)
+### [XB](XB.exa) (global)
 ```asm
 NOOP
 NOOP
