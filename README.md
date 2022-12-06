@@ -68,5 +68,5 @@ Also include a quick `.solution` (game's file format) parser to [auto-generate](
 
 ### TODO
 - [ ] Generate circa 1997 geocities static html pages as well
-- [ ] [Achievemets](https://steamcommunity.com/stats/716490/achievements)
+- [ ] [Achievements](https://steamcommunity.com/stats/716490/achievements)
 - [ ] Bonus Levels
