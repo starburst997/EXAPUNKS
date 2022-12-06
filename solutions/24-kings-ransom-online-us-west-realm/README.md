@@ -2,6 +2,7 @@
 
 <div align="center"><img src="EXAPUNKS - King's Ransom Online (110, 49, 39, 2022-12-05-19-35-52).gif" /></div>
 
+## Instructions
 > ﻿Reset the ownership of all castles and sub-buildings to ‗P00000‗ (file 300), the player ID for unowned buildings.
 > 
 > To ensure that there are no witnesses you must first disconnect all connected players. Terminate every EXA in every host before changing any castle or sub-building files anywhere in the network. If you leave an EXA alive in one host while changing a file in another you will fail the task.

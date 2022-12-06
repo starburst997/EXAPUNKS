@@ -2,6 +2,7 @@
 
 <div align="center"><img src="EXAPUNKS - Aberdeen (2022-12-05-19-40-00).gif" /></div>
 
+## Instructions
 > To win this battle you must occupy a majority of the hosts for as long as possible. You occupy a host if you have more EXAs in it than your opponent.
 > 
 >      Gain one point every cycle you occupy more hosts than your opponent.

@@ -2,6 +2,7 @@
 
 <div align="center"><img src="EXAPUNKS - Valhalla (2022-12-05-19-33-03).gif" /></div>
 
+## Instructions
 > To win this battle you must control a majority of the hosts for as long as possible. 
 > 
 > To take control of a host, write any value to its #CTRL register. Reading from a #CTRL register will tell if you (1) or your opponent (-1) controls the host.

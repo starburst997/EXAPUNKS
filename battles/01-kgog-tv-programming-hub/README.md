@@ -2,6 +2,7 @@
 
 <div align="center"><img src="EXAPUNKS - KGOG-TV (2022-12-05-19-22-41).gif" /></div>
 
+## Instructions
 > To win this battle you must make your movies play for longer than your opponent's. A movie will play when that movie's file is the only movie file sitting in a *channel* host.
 > 
 >      Gain one point every cycle for each of your movies that is playing (files 210 and 211).

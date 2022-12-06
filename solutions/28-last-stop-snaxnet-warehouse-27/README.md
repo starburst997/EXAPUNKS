@@ -2,6 +2,7 @@
 
 <div align="center"><img src="EXAPUNKS - Last Stop SNAXNET (301, 98, 30, 2022-12-05-19-37-37).gif" /></div>
 
+## Instructions
 > An array of five Zippe-type gas centrifuges, ZGC0 through ZGC4, are connected in a cascade configuration.
 > 
 > Read each of the #ZGCX registers and determine which centrifuge currently has the highest pressure. Then disable that centrifuge's regulator by writing a value of 0 to its #POWR register. Repeat this process until all five regulators have been disabled.

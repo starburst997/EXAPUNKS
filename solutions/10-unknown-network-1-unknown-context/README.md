@@ -2,6 +2,7 @@
 
 <div align="center"><img src="EXAPUNKS - UNKNOWN NETWORK 1 (31, 22, 27, 2022-12-05-19-21-17).gif" /></div>
 
+## Instructions
 > Find file 276 in the network and bring it back to your host.
 > 
 > Note that an EXA cannot grab a file that is being held by another EXA.

@@ -2,6 +2,7 @@
 
 <div align="center"><img src="EXAPUNKS - Mitsuzen HDI-10 (8124, 148, 266, 2022-12-05-19-42-16).gif" /></div>
 
+## Instructions
 > Create a file in your host containing the hostname and hardware register value of each neuron exactly once, sorted as pairs from lowest to highest hostname.
 > 
 > Note that each test run has its own unique network layout.

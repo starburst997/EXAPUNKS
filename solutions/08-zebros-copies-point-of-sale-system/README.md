@@ -2,6 +2,7 @@
 
 <div align="center"><img src="EXAPUNKS - Zebros Copies (101, 24, 4, 2022-12-05-19-20-53).gif" /></div>
 
+## Instructions
 > Erase Ghast's debt to the copy shop by zeroing out his balance in the customer database (file 200) and appending a payment to the payment log (file 201) with today's date and the exact amount of his prior balance.
 > 
 > Ghast's customer ID is available in file 300.

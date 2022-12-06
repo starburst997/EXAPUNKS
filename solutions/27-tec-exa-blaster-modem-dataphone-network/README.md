@@ -2,6 +2,7 @@
 
 <div align="center"><img src="EXAPUNKS - TEC EXA-Blaster™ Modem (1151, 71, 9, 2022-12-05-19-36-59).gif" /></div>
 
+## Instructions
 > Using your modem, connect to each dataphone so that EMBER-2 will have a list of valid phone numbers.
 > 
 > Each dataphone contains a list of the owner's contacts (file 200). The phone number of one of these dataphones is in your host (file 300), while the rest are in the contact list of another dataphone.

@@ -2,6 +2,7 @@
 
 <div align="center"><img src="EXAPUNKS - Holman Dynamics (4459, 119, 7, 2022-12-05-19-38-24).gif" /></div>
 
+## Instructions
 > Create a file in your host containing the contiguous 16-value sequence from the garbage file (file 199) that is a valid credit card number. There will be exactly one such sequence.
 > 
 > For more information see "How to Validate Credit Card Numbers" in the second issue of the zine.

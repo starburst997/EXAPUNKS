@@ -2,6 +2,7 @@
 
 <div align="center"><img src="EXAPUNKS - Alliance Power and Light (44, 45, 44, 2022-12-05-19-35-09).gif" /></div>
 
+## Instructions
 > Locate the two hosts with the specified hostnames (file 300), which correspond to the target power grid substations. When you've found them, cut the power by writing a value of 0 to #POWR.
 > 
 > For more information see "Network Exploration: Geographic Information Systems" in the second issue of the zine.

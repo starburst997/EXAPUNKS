@@ -2,6 +2,7 @@
 
 <div align="center"><img src="EXAPUNKS - TEC EXA-Blaster™ Modem (638, 62, 29, 2022-12-05-19-41-45).gif" /></div>
 
+## Instructions
 > Connect to each pager and copy EMBER-2's message (file 300) to the screen (#DATA). Then activate all of the pagers at exactly the same time by writing a value to each #PAGE register in the same cycle.
 > 
 > A list of phone numbers for the pagers is available in file 301.

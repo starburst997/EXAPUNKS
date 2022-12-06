@@ -2,6 +2,7 @@
 
 <div align="center"><img src="EXAPUNKS - Equity First Bank (113, 52, 6, 2022-12-05-19-36-30).gif" /></div>
 
+## Instructions
 > ﻿Move EMBER-2's new account (file 300) into *checking*. Then iterate over the checking accounts listed in the directory (file 199) and, in that order, transfer $1.00 from each target account to EMBER-2's account. Finally, add the file ID of EMBER-2's account file to the end of the directory.
 > 
 > The keywords ‗CREDIT‗ and ‗DEBIT‗ are available in file 301.

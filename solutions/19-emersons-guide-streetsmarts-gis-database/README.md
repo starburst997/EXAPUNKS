@@ -2,6 +2,7 @@
 
 <div align="center"><img src="EXAPUNKS - Emerson's Guide (53, 52, 6, 2022-12-05-19-32-52).gif" /></div>
 
+## Instructions
 > Each host contains a list of restaurants and their ratings, from one to five stars (file 200). Locate the entry that corresponds to the Last Stop on Eddy Street and change its rating from one to five stars.
 > 
 > The name of the target restaurant and its location within the GIS grid is available in file 300. The first coordinate is the number of times to move east, while the second coordinate is the number of times to move north (positive) or south (negative).
