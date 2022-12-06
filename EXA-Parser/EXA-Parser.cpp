@@ -371,7 +371,7 @@ int main(int argc, char* argv[])
 			}
 
 			// Create battle
-			readmeOut << endl << "---" << endl << endl << "| Battle";
+			readmeOut << endl << "| Battle";
 			for (int i = 0; i < maxChars - 5 + 0; i++) readmeOut << ' ';
 			readmeOut << "| Wins |" << endl;
 
