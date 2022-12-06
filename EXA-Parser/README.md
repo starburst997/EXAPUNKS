@@ -39,7 +39,7 @@ The default arguments read from an ignored `temp` folder at the root of this rep
 
 #### Run
 
-Compile the code (`EXA-Parser.cpp`) and run it! If you used the `temp` folder, there is nothing to do. Otherwise you need to specify each folder's location by arguments.
+Compile the code (`EXA-Parser.cpp`) and run it! If you used the `temp` folder, there is nothing to do. Otherwise you need to specify each folder's location by arguments:
 
 1. Directory for save files
 2. Directory for GIFs
