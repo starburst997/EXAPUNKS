@@ -135,7 +135,7 @@ int main(int argc, char* argv[])
 	}
 
 	// Loop all gifs, they are badly named, so instead assume they were saved in order (sort by time)
-	cout << endl << "Parse GIFs:" << endl;
+	cout << "Parse GIFs:" << endl;
 
 	vector<GIF> gifs = { };
 	for (const auto& entry : fs::directory_iterator(pathGIFs)) {
@@ -147,7 +147,7 @@ int main(int argc, char* argv[])
 	sort(gifs.begin(), gifs.end(), compareTime);
 
 	// Create hash map / array
-	cout << "Parse data.txt:" << endl;
+	cout << endl << "Parse data.txt:" << endl;
 
 	int globalCounter = 0;
 	int solutionCounter = 1;
@@ -410,6 +410,8 @@ int main(int argc, char* argv[])
 	// Create solutions folder
 	fs::create_directories(pathOutputSolutions);
 
+	cout << endl << "  Making solutions:" << endl;
+
 	for (int i = 0; i < ids.size(); i++) {
 		Info info = dataMap[ids[i]];
 
@@ -463,10 +465,14 @@ int main(int argc, char* argv[])
 		readmeOut << " | ";
 		writeNum(readmeOut, solution.activity, ACTIVITY_N);
 		readmeOut << " |" << endl;
+
+		cout << "    " << info.title << endl;
 	}
 
 	// Create battles folder
 	fs::create_directories(pathOutputBattles);
+
+	cout << endl << "  Making battles:" << endl;
 
 	for (int i = 0; i < battles.size(); i++) {
 		Info info = dataMap[battles[i]];
@@ -509,8 +515,7 @@ int main(int argc, char* argv[])
 
 		// Copy OG file save as well
 		fs::copy(solution.path, pathOutputBattles / info.path / solution.path.filename());
-	}
 
-	// This is the end
-	cout << endl << "Bla bla bla" << endl;
+		cout << "    " << info.title << endl;
+	}
 }
