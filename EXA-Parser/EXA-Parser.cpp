@@ -371,9 +371,13 @@ int main(int argc, char* argv[])
 			}
 
 			// Create battle
-			readmeOut << "| Battle";
+			readmeOut << endl << "---" << endl << endl << "| Battle";
 			for (int i = 0; i < maxChars - 5 + 0; i++) readmeOut << ' ';
 			readmeOut << "| Wins |" << endl;
+
+			/*readmeOut << "|";
+			for (int i = 0; i < maxChars + 2; i++) readmeOut << '-';
+			readmeOut << "|------|" << endl;*/
 
 			for (int i = 0; i < battles.size(); i++) {
 				Info info = dataMap[battles[i]];
