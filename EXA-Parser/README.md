@@ -80,7 +80,7 @@ Linux:
 ~/.local/share/EXAPUNKS/<user-id>/
 ```
 
-## data.txt
+## [data.txt](data.txt)
 
 This is a small file I made up while "reverse-engineering" the file format. Each lines represent the `id`, `locale file` and `title` for each level. It is currently missing the "Bonus" levels.
 
