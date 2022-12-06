@@ -425,6 +425,7 @@ int main(int argc, char* argv[])
 		// Read description files
 		ifstream descriptionStream(pathDescriptions / info.description);
 		if (descriptionStream) {
+			readmeOut << "## Instructions" << endl;
 			while (getline(descriptionStream, line)) {
 				readmeOut << "> " << line << endl;
 			}
