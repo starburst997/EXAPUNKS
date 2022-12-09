@@ -82,7 +82,7 @@ Linux:
 
 ## [data.txt](data.txt)
 
-This is a small file I made up while "reverse-engineering" the file format. Each lines represent the `id`, `locale file` and `title` for each level. It is currently missing the "Bonus" levels.
+This is a small file I made up while "reverse-engineering" the file format. Each line represent the `id`, `locale file` and `title` for each level. It is currently missing the "Bonus" levels.
 
 ## Issues
 Generated GIFs name are *bad*, the first 4 levels are all named "EXAPUNKS - TRASH WORLD NEWS". So you need to generate the GIFs in chronological order and not have any duplicates.
