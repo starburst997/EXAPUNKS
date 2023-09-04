@@ -93,5 +93,5 @@ Linux:
 ## TODO
 - [ ] Generate circa 1997 geocities static html pages
 - [ ] [Achievements](https://steamcommunity.com/stats/716490/achievements)
-- [ ] Bonus Levels
+- [x] Bonus Levels
 - [ ] Nonograms
