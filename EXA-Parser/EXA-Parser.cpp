@@ -5,6 +5,8 @@
 #include <iostream>
 #include <filesystem>
 #include <string>
+#include <vector>
+#include <algorithm>
 
 namespace fs = std::filesystem;
 using namespace std;
@@ -62,6 +64,7 @@ map<string, Solution> solutions;
 map<string, Info> dataMap;
 vector<string> ids = { };
 vector<string> battles = { };
+vector<string> bonus = { };
 
 // Utils
 string readString(ifstream& stream) {
@@ -157,6 +160,7 @@ int main(int argc, char* argv[])
 	int globalCounter = 0;
 	int solutionCounter = 1;
 	int battleCounter = 1;
+	int bonusCounter = 1;
 	string line;
 	while (getline(dataStream, line)) {
 		int i1 = line.find(',');
@@ -171,6 +175,8 @@ int main(int argc, char* argv[])
 
 		bool isBattle = description.rfind("battle-", 0) == 0;
 		int counter = isBattle ? battleCounter++ : solutionCounter++;
+		bool isBonus = description.rfind("bonus-", 0) == 0;
+		counter = isBonus ? bonusCounter++ : counter;
 
 		// Create path based on title
 		string path = ((counter < 10) ? ("0" + to_string(counter)) : to_string(counter)) + '-';
@@ -200,8 +206,9 @@ int main(int argc, char* argv[])
 
 		dataMap[id] = info;
 
-		if (!isBattle) ids.push_back(id);
+		if(!isBattle) ids.push_back(id);
 		else battles.push_back(id);
+		if(isBonus) bonus.push_back(id);
 
 		globalCounter++;
 	}
@@ -323,6 +330,15 @@ int main(int argc, char* argv[])
 		cout << "    No 'battles' directory found" << endl;
 	}
 
+	fs::path pathOutputBonus = pathOutput / "bonus";
+	if (fs::is_directory(pathOutputBonus)) {
+		fs::remove_all(pathOutputBonus);
+		cout << "    Clearing 'bonus' directory" << endl;
+	}
+	else {
+		cout << "    No 'bonus' directory found" << endl;
+	}
+
 	cout << endl << "Create files:" << endl;
 
 	// Create README
@@ -360,7 +376,7 @@ int main(int argc, char* argv[])
 			for (int i = 0; i < maxChars + 2 + 4; i++) readmeOut << '-';
 			readmeOut << "|--------|------|----------|" << endl;
 
-			for (int i = 0; i < ids.size(); i++) {
+			for (int i = 0; i < 34; i++) {
 				Info info = dataMap[ids[i]];
 				readmeOut << "| [" << to_string(i + 1) << ": " << info.title << "](solutions/" << info.path << ") ";
 
@@ -404,6 +420,34 @@ int main(int argc, char* argv[])
 				writeNum(readmeOut, solution.losses, 6);
 				readmeOut << " | S+     |" << endl;
 			}
+
+			// Create bonus
+			readmeOut << endl << "| Bonus campaign level";
+			for (int i = 0; i < maxChars - 5 + 1 + 4; i++) readmeOut << ' ';
+			readmeOut << "| Cycles | Size | Activity |" << endl;
+
+			readmeOut << "|";
+			for (int i = 0; i < maxChars + 2 + 4; i++) readmeOut << '-';
+			readmeOut << "|--------|------|----------|" << endl;
+
+			for (int i = 0; i < bonus.size(); i++) {
+				Info info = dataMap[bonus[i]];
+				readmeOut << "| [" << to_string(i + 1) << ": " << info.title << "](bonus/" << info.path << ") ";
+
+				int total = maxChars - (1 + info.title.length() + 12 + info.path.length() + 1);
+				for (int j = 0; j < total; j++) readmeOut << ' ';
+
+				if (i < 9) readmeOut << ' ';
+
+				Solution solution = solutions[ids[34 + i]];
+				readmeOut << "| ";
+				writeNum(readmeOut, solution.cycles, CYCLE_N);
+				readmeOut << " | ";
+				writeNum(readmeOut, solution.size, SIZE_N);
+				readmeOut << " | ";
+				writeNum(readmeOut, solution.activity, ACTIVITY_N);
+				readmeOut << " |" << endl;
+			}
 		}
 		else if (line == "<!-- EXA_END -->") {
 			readmeOut << line << endl;
@@ -425,7 +469,7 @@ int main(int argc, char* argv[])
 
 	cout << endl << "  Making solutions:" << endl;
 
-	for (int i = 0; i < ids.size(); i++) {
+	for (int i = 0; i < 34; i++) {
 		Info info = dataMap[ids[i]];
 
 		fs::create_directories(pathOutputSolutions / info.path);
@@ -528,6 +572,68 @@ int main(int argc, char* argv[])
 
 		// Copy OG file save as well
 		fs::copy(solution.path, pathOutputBattles / info.path / solution.path.filename());
+
+		cout << "    " << info.title << endl;
+	}
+
+	// Create bonus folder
+	fs::create_directories(pathOutputBonus);
+
+	cout << endl << "  Making bonus:" << endl;
+
+	for (int i = 0; i < bonus.size(); i++) {
+		Info info = dataMap[bonus[i]];
+
+		fs::create_directories(pathOutputBonus / info.path);
+		ofstream readmeOut(pathOutputBonus / info.path / "README.md");
+
+		readmeOut << "# " << to_string(i + 1) << ": " << info.title << endl << endl;
+
+		// Copy GIF
+		fs::copy(info.gif, pathOutputBonus / info.path / info.gif.filename());
+		readmeOut << "<div align=\"center\"><img src=\"" << info.gif.filename().string() << "\" /></div>" << endl << endl;
+
+		// Read description files
+		ifstream descriptionStream(pathDescriptions / info.description);
+		if (descriptionStream) {
+			readmeOut << "## Instructions" << endl;
+			while (getline(descriptionStream, line)) {
+				readmeOut << "> " << line << endl;
+			}
+			readmeOut << endl;
+		}
+
+		readmeOut << "## Solution" << endl << endl;
+
+		// Add source as well
+		Solution solution = solutions[bonus[i]];
+
+		for (int j = 0; j < solution.exas.size(); j++) {
+			EXA exa = solution.exas[j];
+			readmeOut << "### [" << exa.name << "](" << exa.name << ".exa) (" << (exa.local ? "local" : "global") << ")" << endl;
+			readmeOut << "```asm" << endl;
+			readmeOut << exa.source << endl;
+			readmeOut << "```" << endl << endl;
+
+			// Generate file as well
+			ofstream exaOut(pathOutputBonus / info.path / (exa.name + ".exa"));
+			exaOut << exa.source;
+		}
+
+		// Copy OG file save as well
+		fs::copy(solution.path, pathOutputBonus / info.path / solution.path.filename());
+
+		// Add score
+		readmeOut << "#### Results" << endl;
+		readmeOut << "| Cycles | Size | Activity |" << endl;
+		readmeOut << "|--------|------|----------|" << endl;
+		readmeOut << "| ";
+		writeNum(readmeOut, solution.cycles, CYCLE_N);
+		readmeOut << " | ";
+		writeNum(readmeOut, solution.size, SIZE_N);
+		readmeOut << " | ";
+		writeNum(readmeOut, solution.activity, ACTIVITY_N);
+		readmeOut << " |" << endl;
 
 		cout << "    " << info.title << endl;
 	}
